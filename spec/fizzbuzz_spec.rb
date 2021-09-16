@@ -41,3 +41,21 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).to eq 4
   end
 end
+
+describe 'fizzbuzz' do 
+  it 'returns a given number when passed a number that is not a multiple of 3 or 5' do 
+    expect(fizzbuzz(16)).to eq 16
+  end
+end
+
+describe 'fizzbuzz' do 
+  it 'returns a given number when passed a number that is not a multiple of 3 or 5' do 
+    expect(fizzbuzz(67)).to eq 67
+  end
+end
+
+describe 'fizzbuzz' do 
+  it 'returns a given number when passed a number that is not a multiple of 3 or 5' do 
+    expect(fizzbuzz(92)).to eq 92
+  end
+end
