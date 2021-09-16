@@ -6,8 +6,8 @@ We built a simple version of the Fizzbuzz game to use for the tests.
 ## How to use
 
 ```
-shell require lib/fizzbuzz
-shell fizzbuzz 3 (example)
+>> require lib/fizzbuzz
+>> fizzbuzz 3 (example)
 
 You can also run this program for a range of numbers.
 
